@@ -1,6 +1,10 @@
 # GithubEasterEgg
 
-Github easter egg hunt.  It's the results of this Big Query query, processing 1.7 TB of data (expensive):
+This is a Github easter egg hunt.  Full context available here:
+
+https://github.com/blog/2201-making-open-source-data-more-available
+
+It's the results of this Big Query query, processing 1.7 TB of data (expensive):
 
     SELECT
       CONCAT("https://github.com/",repo_name,"/blob/master/",path) AS file_url,
